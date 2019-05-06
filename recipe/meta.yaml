@@ -1,6 +1,6 @@
 {% set name = "gulp" %}
-{% set version = "4.0.0" %}
-{% set sha256 = "162ca655c3fe251d773da3ab4c4b4501a4fc7323576c0064cda7b5c06f0636d8" %}
+{% set version = "4.0.2" %}
+{% set sha256 = "064a04c7c93dcfccd79e7e4e3602e17fb4a43071ccdccf3a71cdd2758f97a168" %}
 
 package:
   name: {{ name|lower }}
