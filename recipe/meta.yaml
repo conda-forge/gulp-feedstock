@@ -1,6 +1,6 @@
 {% set name = "gulp" %}
-{% set version = "4.0.0" %}
-{% set sha256 = "162ca655c3fe251d773da3ab4c4b4501a4fc7323576c0064cda7b5c06f0636d8" %}
+{% set version = "5.0.0" %}
+{% set sha256 = "24394c973340711a24fc9cab11cd6eb123b079b231a4fe4de5696e1111553f19" %}
 
 package:
   name: {{ name|lower }}
@@ -14,15 +14,15 @@ source:
 build:
   number: 0
   noarch: generic
-  script: 
+  script:
     - npm install -g gulp
- 
+
 requirements:
   build:
     - nodejs
   run:
     - nodejs
-       
+
 test:
   files:
     - gulpfile.js
